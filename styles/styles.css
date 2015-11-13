@@ -1,0 +1,14 @@
+div {
+    width: 15%;
+    height: 5rem;
+    background-color: lightblue;
+    -webkit-transition: width 2s, height 4s; /* Safari */
+    transition: width 2s, height 4s;
+    transition-timing-function:ease;
+    transition-delay:1s;
+}
+
+    div:hover {
+        width: 30%;
+        height: 10rem;
+    }
